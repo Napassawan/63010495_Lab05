@@ -45,9 +45,9 @@ int main() {
 	int x = 38, y = 20;
 	setcursor(0);
 	draw_ship(x, y);
-	int dir = 0; //go
+	int dir = 0;
 	int index = -1;
-	int bullet[6] = { 0 }; // 0 = off , 1 = on
+	int bullet[6] = { 0 };
 	int keepx[6], keepy[6];
 	int keep = 0;
 	do {
